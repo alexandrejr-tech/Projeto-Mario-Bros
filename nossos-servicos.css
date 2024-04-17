@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 30px;
+}
+    
+img {
+    height: 60px;
+}
+
+h2 {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    top: 100px;
+    color: #fff;
+    font-size: 50px;
+}
+
+h2:hover {
+    color: #c51111;
+    font-size: 40px;
+    transition: 1s ease-in-out;
+}
+
+.caixa-servicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    height: 100vh;
+    color: #fff;
+}
+
+.caixa-sc {
+    font-size: 30px;
+}
+
+.caixa-video-servico {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara-servico {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+.link-whatsapp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+@media (max-width: 768px){
+    
+    h2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 50px;
+    }
+}
+
+
